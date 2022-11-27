@@ -1,0 +1,79 @@
+.home{
+	width: 59px;
+	height: 50px;
+}
+header{
+	height: 80px;
+	background-color: rgb(180, 20, 20);
+	top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px
+}
+body{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+}
+.butom{
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+}
+.perfil img{
+	width: 40px;
+	height: 40px;
+	padding-right: 10px;
+	padding-left: 20px;
+	
+}
+.perfil{
+	display: flex;
+	flex-direction: row;
+	padding-left: 10px;
+	align-items: center;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.post{
+	width: 400px;
+	height: fit-content;
+	padding: 15px;
+	background-color:gray;
+	align-self: center;
+	
+}
+.foto-post{
+	display:flex ;
+	align-self: center;	
+	width: 100%;
+}
+.feed{
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+	padding: 20px;
+}
+.sessaoComentarios{
+	padding:10px;
+    border-top: dotted 3px rgba(0, 0, 0, 0.308);
+    width: 100%;
+
+}
+.sessaoComentarios h3 {
+	font-weight: bold;
+	font-family: 'Kanit', sans-serif;
+	font-size: 15px;
+}
+.sessaoComentarios p{
+	padding: 5px;
+	font-size: 15px;
+	font-family: 'Kanit', sans-serif;
+}
